@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class JogoDaVelha {
 
     private Jogador jogador1;
@@ -14,7 +16,8 @@ public class JogoDaVelha {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Autor: Cauã Oliveira Silva");
+        System.out.println("Autor:Caua da silva oliveira");
+
         System.out.print("Escolha seu símbolo (X ou O): ");
 
         char simboloHumano = sc.next().toUpperCase().charAt(0);
